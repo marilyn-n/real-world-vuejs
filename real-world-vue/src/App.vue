@@ -1,10 +1,6 @@
-<template>
+  <template>
   <div id="app">
-    <div id="nav">
-      <router-link :to="{name: 'event-list'}">List</router-link>|
-      <router-link :to="{name: 'event-create'}">Create</router-link>|
-      <router-link :to="{name: 'user', params: {username: 'Ravi'}}">Ravi</router-link>
-    </div>
+    <NavBar/>
     <router-view/>
   </div>
 </template>
@@ -234,3 +230,14 @@ select::ms-expand {
   opacity: 0;
 }
 </style>
+
+
+<script>
+import NavBar from "@/components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar
+  }
+};
+</script>
