@@ -10,7 +10,6 @@
 </template>
 
 <style>
-
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -234,3 +233,4 @@ select:focus::ms-value {
 select::ms-expand {
   opacity: 0;
 }
+</style>
